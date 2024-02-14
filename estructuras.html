@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estructuras de Control en Python</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        /* Personalización de estilos */
+        body {
+            padding-top: 60px; /* Para evitar que el header oculte parte del contenido */
+        }
+    </style>
+</head>
+<body>
+    <!-- Header con Bootstrap -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Estructuras de Control en Python</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#if">if</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#for">for</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#while">while</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Contenido principal -->
+    <div class="container">
+        <section id="if">
+            <h2>if</h2>
+            <p>La estructura de control <code>if</code> se utiliza para realizar una acción si una condición es verdadera.</p>
+            <pre><code class="python">edad = 18
+if edad >= 18:
+    print("Eres mayor de edad")</code></pre>
+        </section>
+
+        <section id="for">
+            <h2>for</h2>
+            <p>La estructura de control <code>for</code> se utiliza para iterar sobre una secuencia (como una lista o una tupla) o un rango.</p>
+            <pre><code class="python">numeros = [1, 2, 3, 4, 5]
+for numero in numeros:
+    print(numero)</code></pre>
+        </section>
+
+        <section id="while">
+            <h2>while</h2>
+            <p>La estructura de control <code>while</code> se utiliza para repetir un bloque de código mientras una condición sea verdadera.</p>
+            <pre><code class="python">contador = 0
+while contador < 5:
+    print(contador)
+    contador += 1</code></pre>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer bg-dark text-light text-center py-3">
+        <div class="container">
+            <p>&copy; 2024 Estructuras de Control en Python</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS (opcional, solo si deseas utilizar funcionalidades de Bootstrap que requieran JavaScript) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

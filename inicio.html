@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso Básico de Python</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        /* Estilos adicionales */
+        header {
+            background-color: #007bff; /* Color de fondo del header */
+            padding: 20px 0; /* Espaciado interno del header */
+            text-align: center; /* Alineación de texto del header */
+        }
+        header h1 {
+            color: #fff; /* Color del texto del header */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Curso Básico de Python</h1>
+            <!-- Menú de navegación con Bootstrap -->
+            <nav>
+                <ul class="nav justify-content-center">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#inicio">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#temas">Temas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#recursos">Recursos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacto">Contacto</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="inicio">
+            <div class="container">
+                <h2>Bienvenido al Curso Básico de Python</h2>
+                <p>¡Aprende Python desde cero con nuestro curso! Descubre los fundamentos de la programación en Python y comienza a escribir tus propios programas.</p>
+            </div>
+        </section>
+        <section id="temas">
+            <div class="container">
+                <h2>Temas del Curso</h2>
+                <ul>
+                    <li><a href="introduccion.html">Introducción a Python</a></li>
+                    <li><a href="replit.html">Realizar Registro en Replit</a></li>
+                    <li><a href="variables.html">Variables y tipos de datos</a></li>
+                    <li><a href="estructuras.html">Estructuras de control</a></li>
+                    
+                    <li>Funciones</li>
+                    <li>Listas y tuplas</li>
+                    <li>Diccionarios</li>
+                    <li>Programación orientada a objetos</li>
+                    <li>Manejo de archivos</li>
+                    <li>Excepciones</li>
+                </ul>
+            </div>
+        </section>
+        <section id="recursos">
+            <div class="container">
+                <h2>Recursos Adicionales</h2>
+                <ul>
+                    <li><a href="https://www.python.org/doc/">Documentación oficial de Python</a></li>
+                    <li><a href="https://www.codecademy.com/learn/learn-python-3">Curso interactivo de Python en Codecademy</a></li>
+                    <li><a href="https://realpython.com/">Real Python: Artículos y tutoriales</a></li>
+                </ul>
+            </div>
+        </section>
+        <section id="contacto">
+            <div class="container">
+                <h2>Contacto</h2>
+                <p>¿Tienes alguna pregunta sobre el curso? ¡Contáctanos!</p>
+                <form>
+                    <div class="form-group">
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" class="form-control" id="nombre" name="nombre">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" class="form-control" id="email" name="email">
+                    </div>
+                    <div class="form-group">
+                        <label for="mensaje">Mensaje:</label>
+                        <textarea class="form-control" id="mensaje" name="mensaje"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Curso Básico de Python</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS (opcional, solo si deseas utilizar funcionalidades de Bootstrap que requieran JavaScript) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
